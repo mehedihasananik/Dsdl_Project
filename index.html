@@ -52,7 +52,7 @@
       }
 
       body {
-        background: #eee;
+        background: #ffffff;
         font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
         font-size: 14px;
         color: #000;
@@ -209,23 +209,29 @@
     <!-- End Hero -->
 
     <main id="main">
-      <!-- Swiper -->
+      <!--Start Swiper -->
       <div class="swiper container my-5">
+        <h2 class="text-center">Photo Gallery</h2>
         <div class="slide-content">
           <div class="card-wrapper swiper-wrapper">
             <div
               style="
-                width: 300px;
-                height: 329px;
-                margin-right: 25px;
+                width: 300px !important;
+                height: 329px !important;
                 background: none;
+                margin-right: -40px;
                 border: none;
               "
               class="card swiper-slide"
             >
               <div class="image-content">
                 <div class="card-image">
-                  <img src="/assets/img/img02.jpg" alt="" class="card-img" />
+                  <img
+                    style="width: 100%"
+                    src="/assets/img/img02.jpg"
+                    alt=""
+                    class="card-img"
+                  />
                 </div>
               </div>
             </div>
@@ -233,7 +239,7 @@
               style="
                 width: 300px;
                 height: 329px;
-                margin-right: 25px;
+                margin-right: -40px;
                 background: none;
                 border: none;
               "
@@ -253,7 +259,7 @@
               style="
                 width: 300px;
                 height: 329px;
-                margin-right: 25px;
+                margin-right: -40px;
                 background: none;
                 border: none;
               "
@@ -272,8 +278,14 @@
         <div class="swiper-button-prev swiper-navBtn"></div>
         <div class="swiper-pagination"></div>
       </div>
+      <!--End Swiper -->
 
-      <!-- Initialize Swiper -->
+      <!-- Start Portfolio -->
+      <div class="portfolio container">
+        <img src="/assets/img/portfolio.png" alt="" />
+      </div>
+
+      <!-- End Portfolio -->
 
       <!-- ======= Featured Services Section ======= -->
       <section id="featured-services" class="featured-services mt-5">
