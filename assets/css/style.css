@@ -1109,6 +1109,7 @@ section {
   .about_us_contents {
     display: flex;
     flex-direction: column-reverse;
+    gap: 20px;
   }
   #header {
     padding: 12px 0;
