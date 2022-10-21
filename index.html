@@ -43,59 +43,10 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
     />
-
-    <style>
-      html,
-      body {
-        position: relative;
-        height: 100%;
-      }
-
-      body {
-        background: #ffffff;
-        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-        font-size: 14px;
-        color: #000;
-        margin: 0;
-        padding: 0;
-      }
-
-      .swiper {
-        width: 100%;
-        height: 100%;
-      }
-
-      .swiper-slide {
-        text-align: center;
-        font-size: 18px;
-        background: #fff;
-
-        /* Center slide text vertically */
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: -webkit-flex;
-        display: flex;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        -webkit-justify-content: center;
-        justify-content: center;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        -webkit-align-items: center;
-        align-items: center;
-      }
-
-      .swiper-slide img {
-        display: block;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-      }
-    </style>
   </head>
 
   <body>
-    <!-- ======= Header ======= -->
+    <!-- Header -->
     <header id="header" class="fixed-top">
       <div class="container d-flex align-items-center justify-content-between">
         <h1 class="logo">
@@ -134,8 +85,7 @@
       </div>
     </header>
     <!-- End Header -->
-
-    <!-- ======= Hero Section ======= -->
+    <!-- Start Hero Section-->
     <section id="hero" class="d-flex align-items-center">
       <div class="container">
         <div class="row">
@@ -166,8 +116,8 @@
         </div>
       </div>
     </section>
-
-    <!-- ======= Counts Section ======= -->
+    <!-- End Hero Section -->
+    <!-- Counts Section-->
     <section style="background-color: #ffffff" id="counts" class="counts">
       <div class="container">
         <div class="row counters">
@@ -214,6 +164,7 @@
       </div>
     </section>
     <!-- End Counts Section -->
+    <!-- Start About Us -->
     <section id="about_us" class="about_us py-5">
       <div class="container">
         <div class="row mb-5">
@@ -262,8 +213,7 @@
         </div>
       </div>
     </section>
-
-    <!-- End Hero -->
+    <!-- End About Us -->
 
     <main class="container" id="main">
       <!--Start Swiper -->
@@ -271,55 +221,59 @@
         <h2 class="photo_gallary pb-5">Photo Gallery</h2>
         <div class="slide-content">
           <div class="card-wrapper swiper-wrapper">
-            <div
-              style="
-                width: 300px !important;
-                height: 329px !important;
-                background: none;
-                margin-right: -40px;
-                border: none;
-              "
-              class="card swiper-slide"
-            >
+            <div style="border: none" class="card swiper-slide">
+              <div class="image-content">
+                <div class="card-image">
+                  <img src="/assets/img/one.jpg" alt="" class="card-img" />
+                </div>
+              </div>
+            </div>
+            <div style="border: none" class="card swiper-slide">
+              <div class="image-content">
+                <div class="card-image">
+                  <img src="/assets/img/img08.jpg" alt="" class="card-img" />
+                </div>
+              </div>
+            </div>
+            <div style="border: none" class="card swiper-slide">
               <div class="image-content">
                 <div class="card-image">
                   <img src="/assets/img/img02.jpg" alt="" class="card-img" />
                 </div>
               </div>
             </div>
-            <div
-              style="
-                width: 300px;
-                height: 329px;
-                margin-right: -40px;
-                background: none;
-                border: none;
-              "
-              class="card swiper-slide"
-            >
-              <div class="image-content">
-                <div class="card-image">
-                  <img
-                    src="/assets/img/img03 (1).jpg"
-                    alt=""
-                    class="card-img"
-                  />
-                </div>
-              </div>
-            </div>
-            <div
-              style="
-                width: 300px;
-                height: 329px;
-                margin-right: -40px;
-                background: none;
-                border: none;
-              "
-              class="card swiper-slide"
-            >
+            <div style="border: none" class="card swiper-slide">
               <div class="image-content">
                 <div class="card-image">
                   <img src="/assets/img/img03.jpg" alt="" class="card-img" />
+                </div>
+              </div>
+            </div>
+            <div style="border: none" class="card swiper-slide">
+              <div class="image-content">
+                <div class="card-image">
+                  <img src="/assets/img/img04.jpg" alt="" class="card-img" />
+                </div>
+              </div>
+            </div>
+            <div style="border: none" class="card swiper-slide">
+              <div class="image-content">
+                <div class="card-image">
+                  <img src="/assets/img/img05.jpg" alt="" class="card-img" />
+                </div>
+              </div>
+            </div>
+            <div style="border: none" class="card swiper-slide">
+              <div class="image-content">
+                <div class="card-image">
+                  <img src="/assets/img/img06.jpg" alt="" class="card-img" />
+                </div>
+              </div>
+            </div>
+            <div style="border: none" class="card swiper-slide">
+              <div class="image-content">
+                <div class="card-image">
+                  <img src="/assets/img/img08.jpg" alt="" class="card-img" />
                 </div>
               </div>
             </div>
@@ -356,7 +310,7 @@
       </div>
       <!-- End Roadmap -->
 
-      <!-- ======= Contact Section ======= -->
+      <!-- Contact Section -->
       <section id="contact" class="contact mb-5 mt-4">
         <div class="container">
           <div class="section-title">
@@ -473,7 +427,7 @@
         /></a>
       </h1>
     </section>
-
+    <!--End logo_links -->
     <!-- ======= Footer ======= -->
     <footer id="footer">
       <div class="container footer-bottom clearfix text-center">
@@ -495,13 +449,13 @@
       </div>
     </footer>
     <!-- End Footer -->
-
+    <!-- up arrow -->
     <a
       href="#"
       class="back-to-top d-flex align-items-center justify-content-center"
       ><i class="bi bi-arrow-up-short"></i
     ></a>
-
+    <!-- End up arrow -->
     <!-- Vendor JS Files -->
     <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
