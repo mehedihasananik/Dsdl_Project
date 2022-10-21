@@ -491,7 +491,13 @@ h6 {
   font-weight: 700;
   text-align: center;
 }
-
+.link {
+  color: #13ba4d;
+}
+.link:hover {
+  font-weight: 600;
+  color: #13ba4d;
+}
 /* #about_us {
   width: 100%;
   height: 100%;
