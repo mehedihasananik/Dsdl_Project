@@ -452,9 +452,6 @@ h6 {
   }
 }
 
-@media (max-width: 575px) {
-}
-
 @-webkit-keyframes up-down {
   0% {
     transform: translateY(10px);
@@ -1075,5 +1072,14 @@ section {
 @media (max-width: 991px) {
   #header {
     padding: 12px 0;
+  }
+  .card-image .card-img {
+    height: 72%;
+    width: 100%;
+    object-fit: cover;
+    padding: 0 1%;
+  }
+  .row.counters {
+    padding: 7% 0 4% 0;
   }
 }
