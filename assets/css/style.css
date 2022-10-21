@@ -473,7 +473,7 @@ h6 {
 }
 /* portfolio */
 .portfolio,
-.roadmap {
+.how_it_works {
   padding: 5% 0px;
 }
 
@@ -1032,12 +1032,12 @@ section {
 .portfolio img {
   width: 100%;
 }
-/* roadmap */
-.roadmap_img img {
+/* how_it_works */
+.how_it_works img {
   width: 100%;
 }
 .portfolio h3,
-.roadmap h3 {
+.how_it_works h3 {
   font-size: 40px;
   font-weight: 700;
   text-align: center;
