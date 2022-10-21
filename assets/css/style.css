@@ -1164,8 +1164,8 @@ section {
     margin: 0 !important;
   }
   .main-img img {
-    height: 230px !important;
-    width: 380px !important;
+    height: 200px !important;
+    width: 350px !important;
     overflow: hidden;
   }
 }
