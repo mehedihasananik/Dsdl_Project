@@ -481,7 +481,9 @@ h6 {
   padding: 0% 0px 5% 0 !important;
 }
 /* about us */
-
+section#about_us {
+  padding: 6% 0 5% 0;
+}
 .description p {
   font-size: 18px;
   text-align: justify;
