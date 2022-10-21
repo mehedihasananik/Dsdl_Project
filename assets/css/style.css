@@ -485,6 +485,7 @@ h6 {
 .description p {
   font-size: 18px;
   text-align: justify;
+  padding: 0 2% 0 0;
 }
 .about_title {
   font-size: 40px;
@@ -1153,6 +1154,9 @@ section {
     height: 215px !important;
     width: 300px !important;
     overflow: hidden;
+  }
+  .description p {
+    padding: 0 0 0 0;
   }
 }
 @media only screen and (max-width: 575px) {
