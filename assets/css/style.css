@@ -415,6 +415,12 @@ h6 {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
 
+.photo_gallary {
+  font-size: 40px;
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 4%;
+}
 @media (max-width: 991px) {
   #hero {
     height: 100vh;
@@ -469,12 +475,16 @@ h6 {
     transform: translateY(-10px);
   }
 }
+/* portfolio */
+.portfolio {
+  padding: 5% 0px;
+}
 
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding-bottom: 1%;
   overflow: hidden;
 }
 
