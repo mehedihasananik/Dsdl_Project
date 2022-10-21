@@ -476,7 +476,8 @@ h6 {
   }
 }
 /* portfolio */
-.portfolio {
+.portfolio,
+.roadmap {
   padding: 5% 0px;
 }
 
@@ -1044,7 +1045,6 @@ section {
   font-size: 40px;
   font-weight: 700;
   text-align: center;
-  padding-bottom: 3%;
 }
 
 @media only screen and (max-width: 1440px) {
