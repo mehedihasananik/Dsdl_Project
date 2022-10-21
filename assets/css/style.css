@@ -420,6 +420,7 @@ h6 {
   text-align: center;
   font-weight: 600;
 }
+
 @media (max-width: 991px) {
   #hero {
     height: 100vh;
@@ -475,6 +476,9 @@ h6 {
 .portfolio,
 .how_it_works {
   padding: 5% 0px;
+}
+.roadmap {
+  padding: 0% 0px 5% 0 !important;
 }
 
 /*--------------------------------------------------------------
