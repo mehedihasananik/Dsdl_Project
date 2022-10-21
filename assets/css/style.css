@@ -1023,10 +1023,17 @@ section {
   background: #fff;
   padding: 3px;
 }
+
 .card-image .card-img {
   height: 100%;
   width: 100%;
   object-fit: cover;
+}
+
+.main-img img {
+  height: 290px !important;
+  width: 380px !important;
+  overflow: hidden;
 }
 .name {
   font-size: 18px;
@@ -1155,5 +1162,10 @@ section {
   .hero-img img {
     width: 300px;
     margin: 0 !important;
+  }
+  .main-img img {
+    height: 230px !important;
+    width: 380px !important;
+    overflow: hidden;
   }
 }
