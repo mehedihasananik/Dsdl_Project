@@ -404,8 +404,8 @@ h6 {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
 .hero_logo {
-  max-width: 500px;
-  margin: 0 35%;
+  width: 500px;
+  margin: 0 25%;
 }
 .hero_description {
   font-size: 18px;
@@ -413,7 +413,7 @@ h6 {
 
 @media (max-width: 1440px) {
   .hero_logo {
-    max-width: 450x;
+    width: 450x;
   }
 }
 
