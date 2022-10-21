@@ -403,7 +403,7 @@ h6 {
 #hero .animated {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
-.hero_logo {
+.hero-img img {
   width: 500px;
   margin: 0 21%;
 }
@@ -424,10 +424,6 @@ h6 {
   #hero .hero-img {
     text-align: center;
   }
-
-  #hero .hero-img img {
-    width: 50%;
-  }
 }
 
 @media (max-width: 768px) {
@@ -445,16 +441,9 @@ h6 {
     line-height: 24px;
     margin-bottom: 30px;
   }
-
-  #hero .hero-img img {
-    width: 70%;
-  }
 }
 
 @media (max-width: 575px) {
-  #hero .hero-img img {
-    width: 80%;
-  }
 }
 
 @-webkit-keyframes up-down {
@@ -1045,8 +1034,9 @@ section {
 }
 
 @media only screen and (max-width: 1440px) {
-  .hero_logo {
-    width: 450x !important;
+  .hero-img img {
+    width: 321px;
+    margin: 0px 40%;
   }
 }
 
