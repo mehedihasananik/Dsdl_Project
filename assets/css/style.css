@@ -716,12 +716,13 @@ section {
 
 .contact .php-email-form .loading {
   display: none;
-  background: #fff;
+  background: #10cc7e;
   text-align: center;
   padding: 15px;
+  color: #fff;
 }
 
-.contact .php-email-form .loading:before {
+/* .contact .php-email-form .loading:before {
   content: "";
   display: inline-block;
   border-radius: 50%;
@@ -732,7 +733,7 @@ section {
   border-top-color: #eee;
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
-}
+} */
 
 .contact .php-email-form input,
 .contact .php-email-form textarea {
