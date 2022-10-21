@@ -90,12 +90,6 @@ h6 {
   max-height: 40px;
 }
 
-@media (max-width: 991px) {
-  #header {
-    padding: 12px 0;
-  }
-}
-
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -415,6 +409,13 @@ h6 {
 }
 .hero_description {
   font-size: 18px;
+}
+
+@media (max-width: 1440px) {
+  .hero_logo {
+    max-width: 449px;
+    margin: 0 20%;
+  }
 }
 
 @media (max-width: 991px) {
@@ -1048,4 +1049,9 @@ section {
   font-weight: 700;
   text-align: center;
   padding-bottom: 3%;
+}
+@media (max-width: 991px) {
+  #header {
+    padding: 12px 0;
+  }
 }
