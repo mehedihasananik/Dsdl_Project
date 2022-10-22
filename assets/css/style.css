@@ -406,7 +406,6 @@ h6 {
 }
 .hero-img img {
   width: 220px;
-  margin: 0 21%;
 }
 .hero_description {
   font-size: 18px;
@@ -1110,17 +1109,9 @@ section {
 
 /* media quaries */
 @media only screen and (max-width: 1600px) {
-  .hero-img img {
-    width: 220px;
-    margin: 0px 30%;
-  }
 }
 
 @media only screen and (max-width: 1440px) {
-  .hero-img img {
-    width: 220px;
-    margin: 0px 30%;
-  }
 }
 @media only screen and (max-width: 1366px) {
   #hero h2 {
